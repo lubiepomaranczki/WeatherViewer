@@ -1,0 +1,13 @@
+<Project>
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.79" />
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DefineConstants>$(DefineConstants);DEBUG;</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DefineConstants>$(DefineConstants);RELEASE;</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+</Project>

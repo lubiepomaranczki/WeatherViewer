@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewer.iOS", "Weathe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewer", "WeatherViewer\WeatherViewer.csproj", "{2E244F5A-C5DC-444A-B26E-E82B185856E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "soluton items", "soluton items", "{0C50C235-F1EE-4325-9EB1-C578CB41BD99}"
+ProjectSection(SolutionItems) = preProject
+	Packages.props = Packages.props
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

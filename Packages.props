@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<AppCenterVersion>3.4.3</AppCenterVersion>
+		<PrismVersion>8.1.97</PrismVersion>
+		<FFImageLoadingVersion>2.4.11.982</FFImageLoadingVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Update="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Update="Prism.DryIoc.Forms" Version="$(PrismVersion)" />
+		<PackageReference Update="Prism.Forms" Version="$(PrismVersion)" />
+		<PackageReference Update="Xamarin.FFImageLoading.Forms" Version="$(FFImageLoadingVersion)" />
+		<PackageReference Update="Xamarin.FFImageLoading.Svg" Version="$(FFImageLoadingVersion)" />
+		<PackageReference Update="Xamarin.FFImageLoading.Svg.Forms" Version="$(FFImageLoadingVersion)" />
+		<PackageReference Update="Xamarin.FFImageLoading.Transformations" Version="$(FFImageLoadingVersion)" />
+		<PackageReference Update="Xamarin.Forms" Version="5.0.0.2012" />
+		<PackageReference Update="Xamarin.Essentials" Version="1.6.1" />
+		<PackageReference Update="Refit" Version="5.2.4" />
+		<PackageReference Update="System.Reactive" Version="5.0.0" />
+		<PackageReference Update="PropertyChanged.Fody" Version="3.3.3" />
+	</ItemGroup>
+</Project>

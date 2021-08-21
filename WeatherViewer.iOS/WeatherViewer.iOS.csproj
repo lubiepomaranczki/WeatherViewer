@@ -123,8 +123,14 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms" />
+    <PackageReference Include="Xamarin.Essentials" />
+    <PackageReference Include="Prism.DryIoc.Forms" />
+    <PackageReference Include="Prism.Forms" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
