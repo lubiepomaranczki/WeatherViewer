@@ -8,10 +8,11 @@
 ### The task
 
 1. Please fork this repository to you own github account
-2. Develop what is described below.
-3. Make a PR to this repository with what you have done.
-4. You don't have to do everything. Just spent as much time as you want and create a PR.
-5. After you make a PR, we will catch up on a call and review what you have done 👨‍💻
+2. Develop branch is your working branch
+3. Develop what is described below.
+4. Make a PR to this repository with what you have done.
+5. You don't have to do everything. Just spent as much time as you want and create a PR.
+6. After you make a PR, we will catch up on a call and review what you have done 👨‍💻
 
 ### Functional requirements
 
